@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("bg5.jfif"); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  nav {
+    background-color: rgb(9, 46, 68);
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .container {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 300px;
+  }
+  
+  .login-form h1 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  .login-form button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    opacity: 0.8;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
